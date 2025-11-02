@@ -50,6 +50,12 @@ li{
     height: 500px;
 }
 
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
 #cintillo{
     display: flex;
     flex-direction: row;
