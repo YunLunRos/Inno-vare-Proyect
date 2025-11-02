@@ -1,0 +1,231 @@
+*{
+    font-family:  Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+} 
+
+/*Etiquetas*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+nav{
+    flex-grow: 1;
+    align-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+li{
+  color: white;
+  font-weight: bold;  
+}
+
+/*ID BLOQUES*/ 
+
+#bienvenidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: x-large;
+    text-align: center;
+
+    background: #8715eb;
+    background: radial-gradient(circle,rgba(135, 21, 235, 1) 52%, rgba(6, 6, 48, 1) 100%);
+    height: 500px;
+}
+
+#cintillo{
+    display: flex;
+    flex-direction: row;
+   
+    height: 60px;
+    width: 100%;
+    background: black
+}
+
+#contenedor-servicios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    align-items: baseline;
+    padding:  0px 30px 40px;
+    
+    height: 400px;
+    background-color: white;
+}
+
+#contenedor-productos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: baseline;
+    padding:  0px 30px 10px;
+    
+    height: 300px;
+    background-color: rgb(211, 211, 211);
+    background-image: url(Imagenes/cintillo.png);
+}
+
+#historia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    height: 500px;
+    background: #cf99ff;
+    background: linear-gradient(90deg,rgba(207, 153, 255, 1) 2%, rgba(135, 21, 235, 1) 39%, rgba(6, 6, 48, 1) 71%);
+}
+
+#contenedor-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px 50px;
+
+    background-color: white;
+
+
+}
+
+#pie-de-pagina{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    height: 40px;
+    background-color: black;
+}
+
+#espacio-muerto{
+    flex-grow: 1;
+}
+
+/*CLASES*/ 
+
+/*Clases*/ 
+
+.titulo-seccion-servicios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+    color: #8715eb;
+    font-size: 60px;
+
+    height: 90px;
+    background-color: white;
+}
+
+.titulo-seccion-productos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+    color: rgb(7, 7, 112);
+    font-size: 45px;
+
+    height: 90px;
+    background-color: rgb(211, 211, 211);
+    background-image: url(Imagenes/cintillo.png);
+}
+
+.articulos-servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0px 10px;
+    width: fit-content;
+    
+    text-align: center;
+    max-width: 300px;
+}
+
+.nombres-servicios{
+    color: #8715eb;
+    text-decoration: underline;
+}
+
+.imagenes-servicios{
+    display: flex;
+    width: 300px;
+
+    border-radius: 8px;
+}
+
+.imagen-producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: c;
+
+    width: 150px;
+
+    border-radius: 10px;
+}
+
+.nombre-producto{
+    text-align: center;
+
+    max-width: 150px;
+}
+
+.articulo-historia{
+    margin: 30px;
+    color: white;
+}
+
+.imagen-historia{
+    height: 580px;
+    align-content: left;
+    
+}
+
+.intro-contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 40px;
+
+    font-weight: bold;
+}
